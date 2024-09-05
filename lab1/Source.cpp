@@ -14,15 +14,6 @@ int main(void)
 		cout << a[i] << "\n";
 	}
 
-	for (int i = 0; i < 10; i++) { // 1 zadanie
-		if (a[i] > max) {
-			max = a[i];
-		}
-		if (a[i] < min)
-		{
-			min = a[i];
-		}
-	}
-	cout << "minimum = " << min;
-	cout << "\nmaximum = " << max;
+	//cout << "minimum = " << min;
+	//cout << "\nmaximum = " << max;
 }
